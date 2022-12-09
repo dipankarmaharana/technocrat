@@ -17,7 +17,7 @@ const ProductList = (props) => {
       }
   return (
     <div>
-        <h3>trending products</h3>
+        <h3 style={{marginTop:"50px"}}>trending products</h3>
       {ProductCtx.products.map((product,index) => (
         <Product
           key={index}

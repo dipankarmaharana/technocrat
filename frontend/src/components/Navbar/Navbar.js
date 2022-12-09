@@ -21,7 +21,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-  <Link className="navbar-brand" to="/">technocrat.</Link>
+  <Link className="navbar-brand" to="/"><b>technocrat.</b></Link>
   
   <div className="collapse navbar-collapse" id="navbarText">
     <ul className="navbar-nav mr-auto">
